@@ -145,7 +145,7 @@ export default {
       }
     };
     const observer = new IntersectionObserver(callback, options);
-    observer.observe(this.$refs.observer)
+    observer.observe(this.$refs.observer);
   },
   computed: {
     sortedPosts() {
